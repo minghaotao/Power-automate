@@ -17,8 +17,9 @@ All the assignment extension records are stored on the internal Google sheet, an
   
  2. Develop the Python script to pull the data from the Google sheet URL every week - please see the extension.py
  
-        a. We use Slack to publish the chart every Monday with team members, so you will need to set up your Slack API Token.
-            https://api.slack.com/authentication/basics
+        a. Install all the Python Library package on the server - check the Python script
+        b. Our Team use the Slack, so we use Slack to publish the chart every Monday with team members. 
+             You will need to set up your Slack API Token - https://api.slack.com/authentication/basics
         b. The script is hosted at the internal Linux server
 
 
