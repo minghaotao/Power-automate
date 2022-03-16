@@ -29,7 +29,7 @@ def slack_bot():
 
 
 def extension_requests():
-    url = f'https://docs.google.com/spreadsheets/d/e/2PACX-1vRWoDxDuN4vNzqjs65Bgb07Gk4DNK3otiUclU-72XgnJxGHpVrP8VlSieoA8hrahS2ncyjsYNYTVsBd/pub?output=csv'
+    url = f'your public google sheet url'
     r = requests.get(url)
     with open('/home1/e/edtao/data_reports/extension_report/extension.csv', 'wb') as f:
         f.write(r.content)
