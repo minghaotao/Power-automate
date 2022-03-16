@@ -12,3 +12,10 @@ All the assignment extension reocrds are stored on the internal Google sheet, an
    =IMPORTRANGE("your sheet url","Sheet1!A:H")
 
   b. Then we public the Google sheet so everyone can download as csv file from the sheet url
+  
+  
+  
+ 2. Develop the Python script to pull the data from the Google sheet URL every week - please see the extension.py
+
+
+ 3. Set up the auto run by using Crontab - https://crontab.guru/#0_6_*_*_1
