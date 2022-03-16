@@ -7,11 +7,11 @@ This would be additional information on how to automate data reports for assignm
 1. Reference the date sheet
 All the assignment extension records are stored on the internal Google sheet, and we can't share some of the information with the Public. 
 
-      a. We created a new Google sheet and reference to the extension record sheet and filter out all the sensitive information. 
+      a. We created a new Google sheet and reference to the extension record sheet and filter out all the sensitive information, and only keep course ID, Stats and Submission time. 
 
        =IMPORTRANGE("your sheet url","Sheet1!A:H")
 
-      b. Then we public the Google sheet so everyone can download as csv file from the sheet url
+      b. Then we public the Google sheet so everyone can download as csv file from the sheet url,so the data will be accessible for our Python Script. 
   
   
   
