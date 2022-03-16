@@ -1,13 +1,13 @@
 # Power-automate
 UPCEA 2022 Poster Presentation - Boosting your online administration efficiency by automating complex course operations for a large online program
 
-This would be addtional inforamtion how to autoamte data reports for assignment extension.
+This would be additional information on how to automate data reports for assignment extension.
 
 
 1. Reference the date sheet
-All the assignment extension reocrds are stored on the internal Google sheet, and we can't share some of information on the Public. 
+All the assignment extension records are stored on the internal Google sheet, and we can't share some of the information with the Public. 
 
-      a. We created a new Google sheet and reference to the extension record sheet and filter out all the senstive informaiton. 
+      a. We created a new Google sheet and reference to the extension record sheet and filter out all the sensitive information. 
 
        =IMPORTRANGE("your sheet url","Sheet1!A:H")
 
@@ -16,6 +16,8 @@ All the assignment extension reocrds are stored on the internal Google sheet, an
   
   
  2. Develop the Python script to pull the data from the Google sheet URL every week - please see the extension.py
+        a. You use Slack to publish the chart every Monday, so you will need to set up your Slack API Token.
+        b. The script is hosted at the internal Linux server
 
 
  3. Set up the auto run by using Crontab - https://crontab.guru/#0_6_*_*_1
